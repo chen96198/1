@@ -8,11 +8,11 @@
   "apps":[{"id": "52poje",
     "name": "吾爱破解",
     "keys": ["CookieWA"],
-    "script": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js",
+    "script": "https://raw.githubusercontent.com/chen96198/1/main/wuai/wuaipojie.js",
     "author": "@chen",
-    "repo": "https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js",
+    "repo": "https://github.com/chen96198/1/blob/main/wuai/wuaipojie.js",
     "icons": ["https://raw.githubusercontent.com/chen96198/1/main/9c90577008d87596465e7289bedd9559b73eb9b0ac47-MlXxUm.jpg", "https://raw.githubusercontent.com/chen96198/1/main/9c90577008d87596465e7289bedd9559b73eb9b0ac47-MlXxUm.jpg"]
   }],
-  "task": [{ "config": "20 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/52pj.png",
-    "addons": "https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js_Remote_Cookie.conf, tag=NobyDa Cookie获取"
+  "task": [{ "config": "20 8 * * * https://raw.githubusercontent.com/chen96198/1/main/wuai/wuaipojie.js, tag=吾爱破解签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/52pj.png",
+    "addons": "https://raw.githubusercontent.com/chen96198/1/main/wuai/remote_cookie.conf, tag=NobyDa Cookie获取"
   }]}
