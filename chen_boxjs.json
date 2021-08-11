@@ -1,18 +1,16 @@
 {
   "id": "chen.app.sub",
-  "name": "chen 脚本订阅",
-  "description": "该订阅兼容BoxJs以及QX Gallery",
+  "name": "chen",
+  "description": "",
   "author": "@chen",
-  "icon": "https://avatars2.githubusercontent.com/u/53217160",
-  "repo": "https://github.com/chen96198/1/tree/main",
+  "icon": "",
+  "repo": "",
   "apps":[{"id": "52poje",
     "name": "吾爱破解",
     "keys": ["CookieWA"],
-    "script": "https://raw.githubusercontent.com/chen96198/1/main/wuai/wuaipojie.js",
+    "script": "",
     "author": "@chen",
-    "repo": "https://github.com/chen96198/1/blob/main/wuai/wuaipojie.js",
+    "repo": "",
     "icons": ["https://raw.githubusercontent.com/chen96198/1/main/9c90577008d87596465e7289bedd9559b73eb9b0ac47-MlXxUm.jpg", "https://raw.githubusercontent.com/chen96198/1/main/9c90577008d87596465e7289bedd9559b73eb9b0ac47-MlXxUm.jpg"]
   }],
-  "task": [{ "config": "20 8 * * * https://raw.githubusercontent.com/chen96198/1/main/wuai/wuaipojie.js, tag=吾爱破解签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/52pj.png",
-    "addons": "https://raw.githubusercontent.com/chen96198/1/main/wuai/remote_cookie.conf, tag=NobyDa Cookie获取"
   }]}
